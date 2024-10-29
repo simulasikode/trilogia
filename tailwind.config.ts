@@ -9,8 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        cardinal: "#D5253A",
+        waikawa: "#535EA2",
+        anzac: "#DDA139",
       },
     },
   },
