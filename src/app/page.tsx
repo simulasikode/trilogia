@@ -1,11 +1,11 @@
 import Intro from "./_components/Intro/Index";
-import Landingpage from "./_components/Landingpage/Index";
+import Landing from "./_components/Landing/Index";
 
 export default function Home() {
   return (
-    <main className=" mx-auto h-screen">
-      <div className="relative overflow-hidden">
-        <Landingpage />
+    <main>
+      <div>
+        <Landing />
         <Intro />
       </div>
     </main>

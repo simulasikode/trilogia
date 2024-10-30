@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <div className="fixed z-10 top-0 w-full mx-auto justify-between mt-10">
+    <div className="fixed z-10 top-0 w-full h-screen justify-between mt-10 ">
       <div className="flex mx-auto max-w-screen-xl">
         <div className="flex-1 font-bold text-xl">
           <Link href="/">
